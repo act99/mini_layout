@@ -32,6 +32,10 @@ const initalPost = {
   insert_dt: moment().format("YYYY-MM-DD hh:mm:ss"),
 };
 
+const getPost = () => {
+  return function (dispatch, getState, { history }) {};
+};
+
 export default handleActions(
   {
     [SET_POST]: (state, action) =>

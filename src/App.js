@@ -4,7 +4,6 @@ import { Route } from "react-router-dom";
 import { ConnectedRouter } from "connected-react-router";
 import { history } from "./redux/store";
 import Home from "./pages/Home";
-import Container from "@mui/material/Container";
 import styled, { ThemeProvider } from "styled-components";
 import theme from "./shared/theme";
 
